@@ -80,10 +80,10 @@ body {
     padding-top: 0.4em;
 }
 .container__content__right .resume .line {
-    height: 62em;
+    height: 58.5em;
     width: 2px;
     background: #d1d6e6;
-    margin-left: 0.96em;
+    margin-left: 0.97em;
     position: absolute;
     margin-top: 2.2em;
     z-index: -1;
@@ -108,7 +108,7 @@ body {
     margin-left: -10.5em;
 }
 .container__content__right .resume .title .dot {
-    width: 4%;
+    width: 4.5%;
 }
 .container__content__right .resume .title .dot p {
     color: #060070;
@@ -116,11 +116,33 @@ body {
     font-size: 2rem;
 }
 .container__content__right .resume .title .description {
-    width: 90%;
+    width: 100%;
     margin: 0.8em 0 1em;
 }
 .container__content__right .resume .title .description ul {
     font-size: 1rem;
     margin-left: 1em;
     margin-top: 0.5em;
+}
+
+.ratings {
+    position: absolute;
+    right: 4em;
+    margin-top: -2em;
+}
+
+p.rating-dot {
+    display: inline;
+    font-size: 2rem;
+    margin-left: -0.15em;
+}
+
+p.rating-description{
+    margin-top: -0.5em;
+    text-align: right;
+    font-size:0.8rem;
+}
+
+p.rating-dot-clear{
+    color: #ccc;
 }
