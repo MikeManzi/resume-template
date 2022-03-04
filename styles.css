@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-*{
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-body{
+body {
     font-family: Inter;
 }
 
@@ -25,19 +25,20 @@ body{
     border-radius: 6px;
 }
 .container__content__left {
-    width: 10%;
+    width: 15%;
     background-color: #060070;
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
 }
 .container__content__right {
     padding: 1em;
-    width: 90%;
+    width: 85%;
 }
 .container__content__right .intro h2 {
     color: #060070;
     cursor: pointer;
 }
+
 .container__content__right .intro p.position {
     color: #0b067a;
     margin-top: 0.5em;
@@ -68,6 +69,10 @@ body{
 .container__content__right .resume {
     margin-top: 1.5em;
 }
+
+.container__content__right .resume .dynamic-color {
+    color: #0b067a;
+}
 .container__content__right .resume .fa {
     font-size: 1.2rem;
     width: 35px;
@@ -75,7 +80,7 @@ body{
     padding-top: 0.4em;
 }
 .container__content__right .resume .line {
-    height: 51em;
+    height: 62em;
     width: 2px;
     background: #d1d6e6;
     margin-left: 0.96em;
@@ -90,6 +95,17 @@ body{
 .container__content__right .resume .title {
     width: 80%;
     gap: 1em;
+}
+
+.container__content__right .resume .title p.date {
+    position: absolute;
+    margin-top: 0.8em;
+    margin-left: -6em;
+    color: #fff;
+}
+
+.container__content__right .resume .title p.ml {
+    margin-left: -10.5em;
 }
 .container__content__right .resume .title .dot {
     width: 4%;
@@ -108,4 +124,3 @@ body{
     margin-left: 1em;
     margin-top: 0.5em;
 }
-
